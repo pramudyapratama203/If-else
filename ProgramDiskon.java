@@ -15,12 +15,12 @@ public class ProgramDiskon {
         System.out.println("2. Sepatu [150000][10%]");
         System.out.println("3. Tas [100000][15%]");
         System.out.println("=====================");
-        System.out.print("Pilih = "); pilih=sc.nextInt();
+        System.out.print("Pilih barang yang ingin dibeli = "); pilih=sc.nextInt();
 
             switch(pilih){
                 case 1:
                 harga = 50000;
-                System.out.print("Jumlah = "); jumlah=sc.nextInt();
+                System.out.print("Jumlah barang yang ingin dibeli = "); jumlah=sc.nextInt();
                 totalBiaya = harga*jumlah;
                 System.out.println("Total = " + totalBiaya);
                 diskon = 0.05*totalBiaya;
@@ -32,7 +32,7 @@ public class ProgramDiskon {
 
                 case 2:
                 harga = 150000;
-                System.out.print("Jumlah = "); jumlah=sc.nextInt();
+                System.out.print("Jumlah barang yang ingin dibeli = "); jumlah=sc.nextInt();
                 totalBiaya = harga*jumlah;
                 System.out.println("Total = " + totalBiaya);
                 diskon = 0.1*totalBiaya;
@@ -44,7 +44,7 @@ public class ProgramDiskon {
 
                 case 3: 
                 harga = 100000;
-                System.out.print("Jumlah = "); jumlah=sc.nextInt();
+                System.out.print("Jumlah barang yang ingin dibeli = "); jumlah=sc.nextInt();
                 totalBiaya = harga*jumlah;
                 System.out.println("Total = " + totalBiaya);
                 diskon = 0.15*totalBiaya;
@@ -109,6 +109,7 @@ public class ProgramDiskon {
         uangKembalian = uangTerima - totalBiaya;
         System.out.println("Uang kembalian yang didapat = " + uangKembalian);
         System.out.println("Program selesai");
+        System.out.println("Credit : Putu Pramudya Pratama");
         System.out.println("=====================");
 
 

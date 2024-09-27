@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class ProgramDiskon {
     
     public static void main(String[] args) {
         
@@ -116,3 +116,8 @@ public class Main {
         
     }
 }
+
+/* PUTU PRAMUDYA PRATAMA
+ * 24082010113
+ * 1C
+ */
